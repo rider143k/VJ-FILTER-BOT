@@ -127,7 +127,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://github.com/Rider19999/VJ-FILTER-BOT")
+URL = environ.get("URL", "https://gooitchi-bot-ec7a883edfd6.herokuapp.com/")
 
 
 # Rename Info ; If True Then Bot Rename File Else Not
