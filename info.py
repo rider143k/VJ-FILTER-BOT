@@ -69,7 +69,7 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Mov_Group')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/RkBackup1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/HowToDownloadMovieRk/10')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/HowToDownloadMovieRk/10')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+Qugjh4ZZ4j40MWZl') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'RkBackup1') # Support Chat Link Without https:// or @
 
 # True Or False
 PM_SEARCH = bool(environ.get('PM_SEARCH', True)) # In Pm Search Currently Spell Check Doesn't Work.
@@ -79,7 +79,7 @@ IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "False")), False)
+IMDB = is_enabled((environ.get('IMDB', "False")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
@@ -127,7 +127,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://vj-filter-bot-x0kt.onrender.com/")
+URL = environ.get("URL", "")
 
 
 # Rename Info ; If True Then Bot Rename File Else Not
